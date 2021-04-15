@@ -71,7 +71,7 @@ app.get('/wiki/:word', async (req, res) => {
   }
 })
 
-// démarrage de notre serveur sur le port 3000
+// démarrage de notre serveur sur le port PORT
 app.listen(PORT, LOCAL_IP, () => {
   //exécution d'un affichage au lacement du serveur.
   console.log(`Example app listening at http://${LOCAL_IP}:${PORT}`)
