@@ -7,6 +7,7 @@ const app = express()
 
 // le port d'écoute de notre serveur
 const LOCAL_IP = 'localhost' // change local ip here if needed
+const PORT = 3333
 
 const asyncTask = (id, timeout, willFulFilled) => {
   return new Promise((resolve, reject) => {
